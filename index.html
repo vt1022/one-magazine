@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,600|Roboto:300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link type="image/png" href="assets/favicon.png" rel="icon">
+  <title>One Magazine</title>
+</head>
+<body>
+  <header id="home">
+    <div class="wrapper">
+      <nav class="clearfix">
+        <!-- hamburger checkbox starts -->
+        <input type="checkbox" id="toggle" name="toggle">
+        <label for="toggle" class="toggle">
+          <div class="hamburger">
+            <div class="hamburger-lines line1"></div>
+            <div class="hamburger-lines line2"></div>
+            <div class="hamburger-lines line3"></div>
+          </div>
+        </label>
+        <!-- hamburger ends -->
+        <a href="#home" class="top-logo">One</a>
+        <ul class="top-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li>
+            <a href="#blog">Blog</a>
+            <ul class="sub-menu">
+              <li><a href="#">November 12</a></li>
+              <li><a href="#">December 17</a></li>
+              <li><a href="#">January 14</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="socials">
+          <li>
+            <a href="#ig" aria-label="go to our instgram">
+              <i class="fab fa-instagram" aria-hidden></i>
+            </a>
+          </li>
+          <li>
+            <a href="#fb" aria-label="go to our facebook">
+              <i class="fab fa-facebook-f" aria-hidden></i>
+            </a>
+          </li>
+          <li>
+            <a href="#snap" aria-label="go to our snapchat">
+              <i class="fab fa-snapchat-ghost" aria-hidden></i>
+            </a>
+          </li>
+          <li>
+            <a href="#twitter" aria-label="go to our twitter">
+              <i class="fab fa-twitter" aria-hidden></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <h1><span class="logo">One</span> Magazine</h1>
+  </header>
+
+  <main id="about">
+    <div class="wrapper">
+      <section class="articles">
+        <h2>News Article</h2>
+        <div class="three-images">
+          <img src="assets/image-7.jpg"
+            alt="Two people in white high heels. Left is wearing a turquoise floral print dress. Right is wearing turquoise scales print blazer and pants.">
+          <img src="assets/image-3.jpg" alt="Portrait of a man in black coat with bokeh background.">
+          <img src="assets/image-4.jpg"
+          alt="In the foreground, there's a hand holding a camera pointed at three models in white dresses.">
+        </div>
+
+        <div class="highlights clearfix">
+          <img src="assets/image-6.jpg" alt="Upper body shot of a man enjoying his coffee at a cafe.">
+          <div class="highlights-text">
+            <h3>This Week's Highlight</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, vitae placeat fugit libero accusantium repellat ipsa laborum iure commodi, ad nulla repellendus perspiciatis a asperiores sapiente provident eveniet! Soluta, rem atque. Cupiditate nobis ullam in mollitia. Consectetur eveniet tempore facilis optio id, aperiam eligendi excepturi eius obcaecati architecto, recusandae dolorum culpa deleniti, alias inventore exercitationem. Deleniti id libero officiis saepe autem architecto! At vero perspiciatis distinctio fugiat soluta atque quisquam incidunt adipisci? Debitis expedita odit quasi distinctio nisi laudantium vitae quod assumenda maiores. Voluptates, sunt.</p>
+            <a href="#read-more" class="button">Read More</a>
+          </div>
+        </div>
+      </div> <!-- .wrapper -->
+
+        <div class="grid clearfix">
+          <div class="container trends image">
+            <img src="assets/image-5.jpg" alt="Portrait of a woman in feathery coat.">
+          </div>
+          <div class="container trends-text trends">
+            <h3>New Trends to <span>Lookout For</span></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos a in deleniti perferendis distinctio magnam officia voluptate repudiandae dolore ab, esse alias earum aliquid impedit ratione quae commodi debitis aperiam sint voluptas labore totam nam optio fuga.</p>
+            <a href="#read-more" class="button">Read More</a>
+          </div>
+
+          <div class="container image">
+            <img src="assets/image-2.jpg" alt="Two men in glasses. Left wearing a black button up shirt with white lines. Right wearing a white shirt with black lines.">
+          </div>
+          
+          <div class="container">
+            <h3>Behind the Scenes From <span>Spring / Summer Fashion Week</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nemo omnis aliquid, sequi officiis quibusdam. Voluptatum explicabo iste laborum id dolores dolorum, distinctio minima! Ipsum saepe ipsa corporis totam velit labore incidunt praesentium.</p>
+            <a href="#read-more" class="button">Read More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="links">
+        <div class="wrapper">
+          <ul>
+            <li>
+              <a href="#shop">
+                <i class="fas fa-shopping-bag" aria-hidden></i>
+                Shop Brands
+              </a>
+            </li>
+            <li>
+              <a href="#community">
+                <i class="fas fa-users" aria-hidden></i>
+                Community
+              </a>
+            </li>
+            <li>
+              <a href="#events">
+                <i class="fas fa-calendar-check" aria-hidden></i>
+                Events
+              </a>
+            </li>
+          </ul> 
+        </div><!-- .wrapper -->
+      </section>
+  </main>
+
+  <footer>
+    <div class="wrapper clearfix">
+      <div class="sub container">
+        <h4>Stay Updated</h4>
+        <p>Subscribe to our newsletter to stay updated.</p>
+        <form action="POST">
+          <input type="text" name="subscribe" id="subscribe" placeholder="email address">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="contact container" id="contact">
+        <h4>Contact</h4>
+        <p>Info@email.com | <span>123 - 456 - 7890</span></p>
+        <p>123 some road, Toronto, ON</p>
+        <p>A5A 5A5, Canada</p>
+      </div>
+
+      <div class="footer-links container">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div> <!-- .wrapper -->
+
+    <div class="copyright">
+      <p>Copyright ©  2019 HackerYou</p>
+    </div>
+  </footer>
+
+  <!-- scripts -->
+  <script src="https://kit.fontawesome.com/ffe844f662.js" crossorigin="anonymous"></script>
+  <script src='https://code.jquery.com/jquery-3.4.0.min.js'
+    integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+  
+  <script>
+    // doc ready
+    $(function () {
+      // smooth scroll script
+      $('a').smoothScroll();
+    });
+  </script>
+</body>
+</html>
