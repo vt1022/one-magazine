@@ -15,6 +15,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 /* setup ends */
 
 /* style guide starts */
+body { background-color: #fcfcfc; }
+
 h1, h2, h3, .button { font-family: 'Cormorant Garamond', serif; }
 
 h1 {
