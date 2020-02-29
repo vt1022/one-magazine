@@ -150,7 +150,7 @@ nav li {
 .top-nav li:focus-within .sub-menu {
   height: auto;
   width: 150px;
-  overflow: scroll;
+  overflow: visible;
 }
 /* top nav sub-menu ends*/
 
@@ -408,6 +408,7 @@ button:hover, button:focus {
   .trends-text { padding-left: 14vw }
 }
 
+
 @media (max-width: 1155px) {
   /* change font sizes and some spacing */
   html { font-size: calc(62.5% - 2px); }
@@ -630,7 +631,7 @@ button:hover, button:focus {
 
   .top-nav a:hover::after, 
   .top-nav a:focus::after { 
-    width: calc( 100% - 284px);
+    width: 40%;
     left: 50%;
     bottom: 20%;
     transform: translateX(-50%);
