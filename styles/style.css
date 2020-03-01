@@ -353,8 +353,8 @@ a:hover::after, a:focus::after {
 
 .button:hover::after,
 .button:focus::after,
-.socials a:hover::after,
-.socials a:focus::after {
+.links a:hover::after,
+.links a:focus::after {
   width: 0;
 }
 
